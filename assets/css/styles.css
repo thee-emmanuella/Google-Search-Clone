@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    width: 60%;
+}
+
+.google-logo {
+    width: 92px;
+    height: 30px;
+    margin: 0.5rem 5rem 0 1rem;
+}
+
+.searchbar-name {
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.searchbar {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 1px 2px 8px rgb(208, 207, 207);
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar:hover {
+    box-shadow: 2px 2px 8px rgb(163, 162, 162);
+}
+
+.fa-search-icons {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.vl {
+    display: inline-block;
+    border-left: 1px solid rgb(206, 205, 205);
+    height: 1.5rem;
+    padding-right: 1rem;
+    position: relative;
+    top: 2px;
+}
+
+/* .navbar-right {
+    margin-left: 25rem;
+} */
+
+.google-pfp {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    padding: 3px;
+}
+.google-pfp:hover {
+    background-color: rgb(227, 225, 225);
+}
+
+.fa-navicons {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 50%;
+}
+.fa-navicons:hover {
+    background-color: rgb(246, 242, 242);
+}
+
+.navbar-bottom {
+    display: flex;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-bottom-links {
+    display: inline-block;
+    margin: 6px;
+}
+
+.navlink-all {
+    color: #1a73e8;
+}
+
+.navbar-bottom-nav-all {
+    border-bottom: 3px solid #1a73e8;
+}
+
+.navbar-bottom-nav {
+    margin-right: 1.5rem;
+    color: rgb(136, 133, 133);
+}
+
+.tools-container {
+    margin-left: 8rem;
+}
+
+.tools-btn {
+    padding: 5px 8px;
+    color: rgb(136, 133, 133);
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+.tools-btn:hover {
+    color: #000;
+    background-color: rgb(241, 240, 240);
+    border: 0.1px solid rgb(200, 199, 199);
+}
+
+.navbar-hr {
+    margin: -1rem -2rem;
+    border-top: 0.1px solid rgb(225, 224, 224);
+}
+
+
+/* Main Section */
+
+main {
+    margin: 1.8rem 0;
+}
+
+.results-time {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(136, 133, 133);
+    margin: 0 13rem;
+}
+
+.overview-navigation {
+    margin: 2rem 13rem 0;
+    display: flex;
+}
+
+.overview-navigation h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.overview-navigation p {
+    display: inline-block;
+    margin-right: 1rem;
+    color: rgb(98, 96, 96);
+}
+
+.overview-navigation i {
+    color: #000;
+}
+
+.overview-buttons {
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.overview-buttons button {
+    margin-right: 0.2rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 100px;
+    color: #0060f0;
+    background-color: #e2eeff;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.overview-buttons button:hover {
+    background-color: #c2dbff;
+}
+
+.overview-buttons .overview-btn {
+    border: 1px solid #0060f0;
+}
+.overview-buttons .overview-btn:hover {
+    background-color: #e2eeff;
+}
+.messi-img1 {
+    position: relative;
+}
+.messi1-text-overlay {
+    font-size: 12px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 1rem;
+}
+.messi1-text-overlay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.messi1 {
+    width: 230px;
+    height: 340px;
+    border-radius: 20px 0 0 20px;
+}
+.messi2 {
+    border-radius: 0 20px 0 0;
+    width: 250px;
+    height: 168px;
+}
+
+.messi-img3 {
+    position: relative;
+}
+.messi3-text-overlay {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+.messi3-text-overlay a {
+    color: #fff;
+}
+
+.messi3 {
+    width: 250px;
+    height: 168px;
+    border-radius: 0 0 20px 0;
+}
+
+.overview-image-grid1 {
+    display: inline-flex;
+    gap: 3px;
+    margin-left: 15rem;
+}
+
+.overview-grid-container {
+    display: flex;
+    margin-top: 1.5rem;
+    background-image: linear-gradient(
+        to right, rgba(250, 249, 249, 0), rgb(230, 238, 254), rgba(250, 249, 249, 0));
+    background-image: linear-gradient(
+        to bottom, rgba(250, 249, 249, 0), rgb(230, 238, 254));
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-bottom: 1rem;
+}
+
+.overview-video-container {
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.overview-video {
+    border-radius: 20px 20px 0 0;
+}
+
+.video-text-container {
+    background-color: #fff;
+    width: 252px;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+.video-text-container span {
+    color: rgb(92, 91, 91);
+    font-size: 12px;
+}
+
+.video-first-paragraph {
+    font-size: 14px;   
+    margin-top: 0.8rem;
+}
+.video-second-paragraph {
+    font-size: 12px;
+    margin-top: 0.3rem;
+}
+
+.video-timeframe {
+    font-size: 12px;
+    margin-top: 4rem;
+    color: rgb(92, 91, 91);
+}
+
+.personal-info-container {
+    margin-right: 15rem;
+}
+
+.age-spouse-container {
+    display: flex;
+}
+
+.age, .spouse {
+    margin-bottom: 5rem;
+}
+
+.age-info-container, .spouse-info-container {
+    background-color: #e2eeff;
+    margin-left: 0.9rem;
+    padding: 10px;
+    width: 125px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.mirror-news-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.mirror-img {
+    border-radius: 20px;
+    width: 105px;
+    height: 130px;
+    margin-left: 0.5rem;
+}
+
+/* .mirror-img-container {
+    width: 20px;
+} */
+
+.mirror-text-container {
+    width: 125px;
+}
+
+.mirror-text-container span {
+    color: rgb(92, 91, 91);
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 2rem;
+}
+
+.mirror-text-container p {
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+    line-height: 1.2;
+}
