@@ -23,7 +23,7 @@ body {
 .google-logo {
     width: 92px;
     height: 30px;
-    margin: 0.5rem 5rem 0 1rem;
+    margin: 0.5rem 2rem 0 2rem;
 }
 
 .searchbar-name {
@@ -33,7 +33,7 @@ body {
 }
 
 .searchbar {
-    padding: 1rem;
+    padding: 0.7rem 1rem;
     background-color: #fff;
     box-shadow: 1px 2px 8px rgb(208, 207, 207);
     border-radius: 2rem;
@@ -60,10 +60,6 @@ body {
     top: 2px;
 }
 
-/* .navbar-right {
-    margin-left: 25rem;
-} */
-
 .google-pfp {
     height: 32px;
     width: 32px;
@@ -88,7 +84,7 @@ body {
 
 .navbar-bottom {
     display: flex;
-    margin-left: 13rem;
+    margin-left: 10rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -112,7 +108,7 @@ body {
 }
 
 .tools-container {
-    margin-left: 8rem;
+    margin-left: 10rem;
 }
 
 .tools-btn {
@@ -144,11 +140,11 @@ main {
     font-family: Arial;
     font-size: 14px;
     color: rgb(136, 133, 133);
-    margin: 0 13rem;
+    margin: 0 10rem;
 }
 
 .overview-navigation {
-    margin: 2rem 13rem 0;
+    margin: 2rem 10rem 0;
     display: flex;
 }
 
@@ -207,13 +203,13 @@ main {
 }
 
 .messi1 {
-    width: 230px;
+    width: 260px;
     height: 340px;
     border-radius: 20px 0 0 20px;
 }
 .messi2 {
     border-radius: 0 20px 0 0;
-    width: 250px;
+    width: 260px;
     height: 168px;
 }
 
@@ -233,7 +229,7 @@ main {
 }
 
 .messi3 {
-    width: 250px;
+    width: 260px;
     height: 168px;
     border-radius: 0 0 20px 0;
 }
@@ -241,7 +237,7 @@ main {
 .overview-image-grid1 {
     display: inline-flex;
     gap: 3px;
-    margin-left: 15rem;
+    margin-left: 12rem;
 }
 
 .overview-grid-container {
@@ -267,7 +263,7 @@ main {
 
 .video-text-container {
     background-color: #fff;
-    width: 252px;
+    width: 260px;
     padding: 10px;
     border-radius: 0 0 20px 20px;
 }
@@ -293,7 +289,7 @@ main {
 }
 
 .personal-info-container {
-    margin-right: 15rem;
+    margin-right: 10rem;
 }
 
 .age-spouse-container {
@@ -308,7 +304,7 @@ main {
     background-color: #e2eeff;
     margin-left: 0.9rem;
     padding: 10px;
-    width: 125px;
+    width: 140px;
     font-size: 14px;
     border-radius: 20px;
 }
@@ -324,14 +320,10 @@ main {
 
 .mirror-img {
     border-radius: 20px;
-    width: 105px;
+    width: 120px;
     height: 130px;
-    margin-left: 0.5rem;
+    margin-left: 0.9rem;
 }
-
-/* .mirror-img-container {
-    width: 20px;
-} */
 
 .mirror-text-container {
     width: 125px;
@@ -353,8 +345,9 @@ main {
 /* Top Stories Section */
 
 .top-stories-section {
-    margin-left: 13rem;
+    margin-left: 10rem;
     margin-top: 4rem;
+    display: flex;
 }
 
 .news-psg h3 {
@@ -363,18 +356,22 @@ main {
     font-weight: 400;
 }
 
-.news-psg h5 {
+.news-psg h5 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: rgb(75, 74, 74);
     line-height: 2;
+    text-decoration: none;
+}
+.news-psg h5 a:hover {
+    text-decoration: underline;
 }
 
 .gms-psg {
     margin-top: 0.5rem;
     border-top: 1px solid rgb(238, 237, 237);
-    width: 60%;
+    width: 68%;
     display: flex;
 }
 
@@ -400,6 +397,9 @@ main {
     font-size: 1rem;
     color: #1a0dab;
     line-height: 1.8;
+}
+.givemesport a:hover, .mirror-psg a:hover, .skysports-psg a:hover {
+    text-decoration: underline;
 }
 
 .mirror-psg a, .skysports-psg a {
@@ -437,7 +437,7 @@ main {
     display: flex;
     margin-top: 0.5rem;
     border-top: 1px solid rgb(238, 237, 237);
-    width: 60%;
+    width: 68%;
 }
 
 .dailypost, .sportskeeda {
@@ -458,6 +458,9 @@ main {
     width: 70%;
     display: inline-block;
 }
+.dailypost a:hover, .sportskeeda a:hover {
+    text-decoration: underline;
+}
 
 .dailypost p, .sportskeeda p {
     color: rgb(100, 100, 100);
@@ -466,4 +469,275 @@ main {
 
 .dp-ss-img {
     border-radius: 10px;
+}
+
+.morenews-container {
+    border-top: 1px solid rgb(238, 237, 237);
+    margin-top: 3rem;
+    width: 68%;
+}
+
+.morenews p a {
+    background-color: rgb(238, 237, 237);
+    padding: 0.5rem 6rem;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+.morenews p a:hover {
+    background-color: rgb(213, 208, 208);
+}
+
+.morenews {
+    position: relative;
+    left: 28%;
+    bottom: 1rem;
+}
+
+/* About Section */
+
+.about {
+    width: 30%;
+    margin-left: -20rem;
+    margin-right: 10rem;
+    border-left: 1px solid rgb(238, 237, 237);
+    padding-left: 2rem;
+}
+
+.about h6 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.bio {
+    font-size: 0.87rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(73, 73, 73);
+}
+
+.bio-links {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.bio-links:hover {
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 0.87rem;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+    color: rgb(73, 73, 73);
+}
+
+.about span {
+    font-weight: 600;
+}
+
+.knowledge-panel {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 237, 237);
+    padding-bottom: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.fa-shield {
+    color: #1a73e8;
+}
+
+.kp {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+}
+.kp a {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+}
+.kp:hover {
+    background-color: #f7f9ff;
+}
+
+.knowledge-panel .feedback a {    
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+    position: relative;
+    top: 12px;
+    text-decoration: none;
+}
+
+/* Social Media Profiles */
+
+.profiles {
+    margin: 0.5rem 0 0.1rem;
+    font-size: 1.2rem;
+}
+
+.sm-profiles {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgb(238, 237, 237);
+}
+.sm-profiles a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.7rem;
+}
+
+.sm-profiles a:hover {
+    text-decoration: underline;
+}
+
+.ig-profile-logo {
+    width: 30px;
+    height: 30px;
+    margin: 0.5rem 0.8rem 0.55rem;
+}
+.yt-profile-logo {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0.1rem;
+}
+.fb-profile-logo {
+    width: 41px;
+    height: 44px;
+    margin: 0.19rem 0.1rem 0;
+
+}
+
+/* Other Searches */
+
+.othersearches {
+    margin: 0.5rem 0;
+}
+
+.othersearches-pfp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.othersearches-pfp div {
+    width: 75px;
+}
+
+.othersearches-pfp a {
+    font-size: 0.8rem;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+
+.othersearches-pfp a:hover {
+    text-decoration: underline;
+}
+
+.othersearches-pfp img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.seemore p a {
+    background-color: rgb(238, 237, 237);
+    padding: 0.5rem 6.5rem;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;   
+}
+.seemore p a:hover {
+    background-color: rgb(213, 208, 208);
+}
+
+/* Wikipedia * Forbes Section */
+
+.wikipedia-section, .forbes-section {
+    margin: 1rem 0 2.5rem 10rem;
+    width: 48%;
+}
+
+.wiki-web-link, .forbes-web-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.wiki-web-link-gray, .forbes-web-link-gray {
+    color: rgb(84, 81, 81);
+}
+.ellipsis-wiki, .ellipsis-forbes {
+    margin-left: 2rem;
+}
+
+.messi-name-wiki a, .messi-name-forbes a {
+    line-height: 2;
+    text-decoration: none;
+    color: #120883;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.messi-name-wiki a:hover, .messi-name-forbes a:hover {
+    text-decoration: underline;
+}
+
+.messi-profile-wiki, .messi-profile-forbes {
+    color: rgb(62, 62, 62);
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+.messi-profile-wiki span, .messi-profile-forbes span {
+    color: rgb(102, 100, 100);   
+}
+
+.wiki-el-cc a {
+    text-decoration: none;
+    color: #120883;
+    font-size: 0.95rem;
+}
+.wiki-el-cc a:hover {
+    text-decoration: underline;
+}
+
+/* Stats Section */
+
+.stats-section {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+}
+
+.stats-table {
+    margin-left: 1rem;
+}
+
+.stats-table .st-psg {
+    text-decoration: none;
+    line-height: 2;
+}
+.stats-table .st-psg:hover {
+    text-decoration: underline;
+}
+
+table td {
+    padding: 0.5rem 3rem 0.5rem 0;
+    border-bottom: 1px solid rgb(111, 111, 111);   
+}
+
+thead td {
+    color: rgb(111, 111, 111);
+}
+
+tbody td {
+    padding-left: 0.5rem;
+}
+tbody td:first-of-type {
+    padding-left: 0;
+}
+
+.league-year {
+    font-size: 0.8rem;
+    color: rgb(111, 111, 111);
 }
