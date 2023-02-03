@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -708,6 +710,10 @@ main {
     margin-left: 10rem;
     margin-bottom: 2rem;
 }
+.stats-section h3 {
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+}
 
 .stats-table {
     margin-left: 1rem;
@@ -740,4 +746,290 @@ tbody td:first-of-type {
 .league-year {
     font-size: 0.8rem;
     color: rgb(111, 111, 111);
+}
+
+/* People Also Ask */
+
+.people-also-ask {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    width: 48%;
+}
+
+.paa-title {
+    font-size: 1.4rem;
+}
+
+.question-tile {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    border-top: 1px solid rgb(206, 206, 206);
+    padding-top: 0.5rem;
+}
+
+.people-also-ask a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
+.fdbk-hr-container {
+    display: flex;
+    justify-content: space-between;
+}
+.fdbk-hr-container p {
+    color: rgb(129, 129, 129);
+}
+
+.fdbk-hr {
+    border-top: 1px solid rgb(206, 206, 206);
+    width: 88%;
+    margin-top: 0.5rem;
+}
+
+.fcbarcelona {
+    display: flex;
+}
+
+.fcb-img {
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Videos Section */
+
+.videos-section {
+    margin-left: 10rem;
+    width: 48%;
+}
+
+.videos-section h3 {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+}
+
+.vs-video-container {
+    border-top: 1px solid rgb(232, 232, 232);  
+    padding-top: 0.5rem; 
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.vs-video-container iframe {
+    border-radius: 7px;
+}
+
+.vs-text-container {
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+
+.vs-text-container a {
+    text-decoration: none;
+}
+.vs-text-container a p {
+    margin-bottom: 1rem;
+}
+
+.vs-tc-ss span, .vc-tc-time {
+    color:  rgb(109, 109, 109);
+}
+
+.viewall-container {
+    border-top: 1px solid rgb(238, 237, 237);
+    margin-top: 2rem;
+}
+
+.viewall p a {
+    background-color: rgb(238, 237, 237);
+    padding: 0.5rem 6rem;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+.viewall p a:hover {
+    background-color: rgb(213, 208, 208);
+}
+
+.viewall {
+    position: relative;
+    left: 28%;
+    bottom: 1rem;
+}
+
+/* Marca Section */
+
+.marca-img-container img {
+    height: 145px;
+    width: 170px;
+}
+
+.marca-img-container img:first-of-type {
+    border-radius: 10px 0 0 10px;
+}
+.marca-img-container img:last-of-type {
+    border-radius: 0 10px 10px 0;
+}
+
+/* Related Searches */
+.question-tile p img {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* New Searches */
+.new-search {
+    margin-left: 10rem;
+    width: 48%;
+    display: flex;
+}
+
+.ns-searchbox p {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.ns-searchbox p a {
+    background-color: #f1f3f4;
+    padding: 1rem 4.5rem 1rem 2rem;
+    border-radius: 30px;
+    display: block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+.ns-searchbox a:hover {
+    text-decoration: underline;
+}
+
+.ns-search-icons {
+    margin-right: 2rem;
+}
+
+.google-other-pages {
+    margin-left: 21rem;
+    margin-top: 3rem;
+}
+
+.go10gle {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.go10gle a {
+    text-decoration: none;
+}
+
+.go10gle p span {
+    margin-right: -0.6rem;
+}
+
+.g-blue {
+    color: #4285f4;
+}
+.o-red {
+    color: rgb(214, 24, 24);
+}
+.o-yellow {
+    color: rgb(255, 208, 0);
+}
+.l-green {
+    color: rgb(1, 164, 1);
+}
+.e-red {
+    color: rgb(214, 24, 24);
+}
+.ar-blue {
+    color: #4285f4;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.go10gle-page-numbers {
+    margin-left: 2rem;
+    
+}
+
+.go10gle-page-numbers p span {
+    padding-right: 6.5px;
+    font-size: 15px;
+}
+.go10gle-page-numbers p span:last-of-type {
+    margin-left: 2.6rem;
+}
+
+.go10gle-page-numbers p span a {
+    color: #4285f4;
+    text-decoration: none;
+}
+.go10gle-page-numbers p span a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #f1f3f4;
+    margin: 0 -2rem -2rem -2rem;
+    padding: 1rem 13rem;
+    font-size: 14px;
+}
+
+.ftr-location {
+    display: flex;
+}
+
+.ftr-location .nigeria {
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-right: 1px solid rgb(206, 206, 206);
+    color: #70757a;
+    font-size: 15px;
+}
+
+.ftr-location .enugu-north {
+    padding: 0.5rem 1rem;
+}
+
+.ftr-location .enugu-north a {
+    text-decoration: none;
+}
+
+.en {
+    font-weight: bold;
+    color: #4d5156;
+}
+.fa-circle {
+    font-size: 0.7rem;
+}
+
+.update-location {
+    color: #1a0dab;
+}
+
+.ftr-help {
+    border-top: 1px solid rgb(206, 206, 206);
+    margin: 0 -13rem;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.ftr-help p {
+    padding: 1rem 13rem 0;
+}
+
+.ftr-help p a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.ftr-help p a :hover {
+    color: #4d5156;
+}
+
+.ftr-help p a span {
+    margin-right: 1.4rem;
 }
